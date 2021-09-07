@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(190, 190, 190);
+}
+main{
+    margin: auto;
+    width: 300px;
+    background-color: gray;
+    padding: 20px;
+}
+input#tela{
+    width: 80%;
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+
+input.btnNum{
+    width: 60px;
+    height: 60px;
+    margin: 0% 2% 2% 0%;
+    float: left;
+}
+input.btnOpe{
+    width: 40px;
+    height: 40px;
+    margin: 0% 2% 2% 0%;
+   
+}
+
+div#botoes{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
