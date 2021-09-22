@@ -9,43 +9,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="code.js"></script>
+    
     <header></header>
     <main>
         <section>
             <div id="corpoCalculadora">
                 <form action="">
-                    <input type="text" name="" id="tela">
+                    <div id="tela">
+                        <p id="numero"></p>
+                    </div>
                     <div id="botoes">
                         <div id="colunaNumeral">
                             <span>
-                                <input class="btnNum" type="button" value="9">
-                                <input class="btnNum" type="button" value="8">
-                                <input class="btnNum" type="button" value="7">
+                                <input id="btn-limpar" class="btnNum" style="display: block; margin: 15px; height: 30px;" type="button" value="CE">
                             </span>
                             <span>
-                                <input class="btnNum" type="button" value="6">
-                                <input class="btnNum" type="button" value="5">
-                                <input class="btnNum" type="button" value="4">
+                                <input id="btn9" class="btnNum" type="button" value="9">
+                                <input id="btn8" class="btnNum" type="button" value="8">
+                                <input id="btn7" class="btnNum" type="button" value="7">
+                                <input id="btn-divisao" class="btnNum" type="button" value="/">
                             </span>
                             <span>
-                                <input class="btnNum" type="button" value="3">
-                                <input class="btnNum" type="button" value="2">
-                                <input class="btnNum" type="button" value="1">
+                                <input id="btn6" class="btnNum" type="button" value="6">
+                                <input id="btn5" class="btnNum" type="button" value="5">
+                                <input id="btn4" class="btnNum" type="button" value="4">
+                                <input id="btn-multiplicacao" class="btnNum" type="button" value="X">
                             </span>
                             <span>
-                                <input class="btnNum" type="button" value="+/-">
-                                <input class="btnNum" type="button" value="0">
-                                <input class="btnNum" type="button" value=".">
+                                <input id="btn3" class="btnNum" type="button" value="3">
+                                <input id="btn2" class="btnNum" type="button" value="2">
+                                <input id="btn1" class="btnNum" type="button" value="1">
+                                <input id="btn-subtracao" class="btnNum" type="button" value="-">
                             </span>
-                        </div>
-                        <div id="colunaOperacoes">
                             <span>
-                                <input class="btnOpe" type="button" value="/">
-                                <input class="btnOpe" type="button" value="X">
-                                <input class="btnOpe" type="button" value="-">
-                                <input class="btnOpe" type="button" value="+">
-                                <input class="btnOpe" style="height: 70px;" type="button" value="=">
+                                <input id="btn-ponto" class="btnNum" type="button" value=".">
+                                <input id="btn0" class="btnNum" type="button" value="0">
+                                <input id="btn-igual" class="btnNum" type="button" value="=">
+                                <input id="btn-soma" class="btnNum" type="button" value="+">
                             </span>
                         </div>
                     </div><!--FIM Div botoes-->
@@ -57,6 +57,6 @@
         </aside>
     </main>
     <footer></footer>
-    
+    <script src="code.js"></script>
 </body>
 </html>

@@ -9,28 +9,32 @@ main{
     background-color: gray;
     padding: 20px;
 }
-input#tela{
-    width: 80%;
-    height: 60px;
-    display: block;
+div#tela{
+    width: 90%;
+    height: 70px;
     margin: auto;
+    margin-bottom: 1%;
+    padding: 0px;
+    border: 0px;
+    
+    background-color: white;
+}    
+#numero{
+    vertical-align: middle;
+    text-align: right;
+    font-size: 2em;
+    padding: 20px 10px;
 }
-
 input.btnNum{
     width: 60px;
+    display: inline;
     height: 60px;
-    margin: 0% 2% 2% 0%;
-    float: left;
-}
-input.btnOpe{
-    width: 40px;
-    height: 40px;
-    margin: 0% 2% 2% 0%;
-   
+    margin: 1%;
+
 }
 
 div#botoes{
-    width: 80%;
+    width: 100%;
     margin: auto;
-    display: block;
+    text-align: center;
 }
