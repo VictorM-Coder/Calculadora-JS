@@ -79,7 +79,7 @@ function limpar(){
 }
 
 function addNumero(btn){
-    if(!(numero.innerText == "" && btn.value == 0) && numero.innerText.length <= 10){
+    if(!(numero.innerText == "" && btn.value == 0) && numero.innerText.length <= 14){
         numero.innerText += btn.value
     }
 }
@@ -128,5 +128,10 @@ function igualdade(){
             break
     }
 
-    numero.innerText = retorno
+    if(numero.innerText.length <=14){
+        numero.innerText = retorno
+    }else{
+        window.alert("Tamanho de número excedido")
+    }
+    
 }
