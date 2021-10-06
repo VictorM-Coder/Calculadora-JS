@@ -134,4 +134,4 @@ function igualdade(){
         window.alert("Tamanho de número excedido")
     }
     
-}
+}               
